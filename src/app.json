@@ -1,14 +1,17 @@
 {
   "pages": [
+    "pages/detail/main",
     "pages/home/main",
-    "pages/logs/main",
+    "pages/cart/main",
     "pages/user/main"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#999",
@@ -23,7 +26,7 @@
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
       "text": "订单",
-      "pagePath": "pages/logs/main",
+      "pagePath": "pages/cart/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
     }, {
@@ -40,7 +43,7 @@
       "activeIcon": "static/tabs/home-active.png"
     }, {
       "name": "订单",
-      "pagePath": "pages/logs/main",
+      "pagePath": "pages/cart/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],
